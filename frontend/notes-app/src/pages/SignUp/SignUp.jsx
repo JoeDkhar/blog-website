@@ -1,12 +1,4 @@
-import React from "react"
-
-const Login = () =>{
-    return (
-        <div>SignUp</div>
-    )
-}
-
-export default SignUpimport React, { useState } from "react";
+import React, { useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import PasswordInput from "../../components/Input/PasswordInput";
 import { Link, useNavigate } from "react-router-dom";
