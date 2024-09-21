@@ -110,7 +110,7 @@ const Home = () => {
     }
   };
 
-  const updateIsPinned = async (noteData) => {
+  const updateIsPinned = async (noteData) => { //pinned note added
     const noteId = noteData._id;
 
     try {
