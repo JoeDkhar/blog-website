@@ -64,6 +64,7 @@ const Home = () => {
     }
   };
 
+
   // Delete Note
   const deleteNote = async (data) => {
     const noteId = data._id;
