@@ -64,7 +64,8 @@ const Home = () => {
     }
   };
 
-  // Delete Note added
+
+  // Delete Note
   const deleteNote = async (data) => {
     const noteId = data._id;
     try {
@@ -110,7 +111,7 @@ const Home = () => {
     }
   };
 
-  const updateIsPinned = async (noteData) => { //pinned note added
+  const updateIsPinned = async (noteData) => {
     const noteId = noteData._id;
 
     try {
